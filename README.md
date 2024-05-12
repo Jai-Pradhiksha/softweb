@@ -257,15 +257,83 @@ Publish the website in the given URL.
 </html>
 
 ```
+### contactuspage.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jai Pradhiksha</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWuaguLIFTiHsLYyNqiNpqcNLpzWMXHvbcBQ&s');
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  header {
+    padding-top: 10px 20px;
+    background-color: #007bff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img {
+    width: 1000px;
+  }
+  .right-end {
+    display: flex;
+    align-items: center;
+  }
+  .right-end span {
+    margin-left: 20px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1 style="color: #fff;">Contact Us</h1>
+    <div class="right-end">
+      <span style="margin-left: 1200px; color:#fff">Logout</span>
+    </div>
+  </div>
+</header>
+<div class="container">
+    <div class="card" style="margin-top: 300px;">
+        <h2 style="color: darkblue;">Contact Details</h2>
+        <div class="contact-info">
+          <p>Email: jaipradhiksha@gmail.com</p>
+          <p>Phone: +1234567890</p>
+          <p>Address: 123 Street, Chennai, India</p>
+        </div>
+      </div>
 
+      
+</div>
+<footer style="position: fixed; left: 0; bottom: 0; width: 100%; padding-top: 20px; padding-bottom: 20px; background-color: #007bff; color: #fff; text-align: center;">
+  Jai Pradhiksha
+</footer>
+</body>
+</html>
+
+```
 ## OUTPUT:
 ### Products page
-![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/685fccf0-624a-4997-8210-b2dbe2a096cb)
-
+![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/5ac1649b-b3b9-4fc2-96ab-525fe9ac204e)
 ### People page
-![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/832049e2-8a33-4cba-8718-bab3b94cf2cf)
+![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/6fbe7425-7121-4e4a-8ef7-40854f2ceaa3)
 
 ### Contact us page
+![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/9d3f28ac-4ac9-48e4-b953-b0a6f322018d)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
