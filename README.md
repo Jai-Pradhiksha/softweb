@@ -1,32 +1,22 @@
 # Ex.07 Software Product Company Website
 ## Date:
-
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
-
 ## DESIGN STEPS:
-
 ### Step 1:
 Requirement collection.
-
 ### Step 2:
 Creating the layout using HTML and CSS.
-
 ### Step 3:
 Updating the sample content.
-
 ### Step 4:
 Choose the appropriate style and color scheme.
-
 ### Step 5:
 Validate the layout in various browsers.
-
 ### Step 6:
 Validate the HTML code.
-
 ### Step 7:
 Publish the website in the given URL.
-
 ## PROGRAM:
 ### productpage.html
 ```
@@ -145,7 +135,6 @@ Publish the website in the given URL.
 </footer>
 </body>
 </html>
-
 ```
 ### peoplepage.html
 ```
@@ -166,25 +155,6 @@ Publish the website in the given URL.
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
-  }
-  .product {
-    width: calc(20% - 20px);
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 10px;
-    display: inline-block;
-    box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .product img {
-    width: 100%;
-    height: 200px; 
-    object-fit: cover;
-    border-radius: 4px;
-  }
-  .product h2 {
-    margin-top: 0;
   }
   .search-bar {
     width: 100%;
@@ -246,16 +216,12 @@ Publish the website in the given URL.
     <h2>Larry Page</h2>
     <p>American businessman, computer scientist, and internet entrepreneur best known for co-founding Google with Sergey Brin.</p>
   </div>
-
-  
-  
 </div>
 <footer style="position: fixed; left: 0; bottom: 0; width: 100%; padding-top: 20px; padding-bottom: 20px; background-color: #007bff; color: #fff; text-align: center;">
   Jai Pradhiksha
 </footer>
 </body>
 </html>
-
 ```
 ### contactuspage.html
 ```
@@ -315,25 +281,20 @@ Publish the website in the given URL.
           <p>Phone: +1234567890</p>
           <p>Address: 123 Street, Chennai, India</p>
         </div>
-      </div>
-
-      
+      </div> 
 </div>
 <footer style="position: fixed; left: 0; bottom: 0; width: 100%; padding-top: 20px; padding-bottom: 20px; background-color: #007bff; color: #fff; text-align: center;">
   Jai Pradhiksha
 </footer>
 </body>
 </html>
-
 ```
 ## OUTPUT:
 ### Products page
 ![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/5ac1649b-b3b9-4fc2-96ab-525fe9ac204e)
 ### People page
 ![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/6fbe7425-7121-4e4a-8ef7-40854f2ceaa3)
-
 ### Contact us page
 ![image](https://github.com/Jai-Pradhiksha/softweb/assets/100289733/9d3f28ac-4ac9-48e4-b953-b0a6f322018d)
-
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
